@@ -18,8 +18,8 @@ function App() {
   }
   return (
     <div className="flex  bg-indigo-900 flex-col items-center justify-center w-full h-screen">
-      <h1 className="text-xl text-white">Calculator</h1>
-      <div className="flex flex-col gap-4 w-full px-10 py-2">
+      <h1 className="text-3xl mb-6 shadow-2xl text-white font-serif">Calculator</h1>
+      <div className="flex flex-col gap-4 w-200 px-10 py-2">
         <div className=" px-3 w-full py-5 rounded-lg bg-blue-950">
           <p className="flex justify-end text-white text-2xl">{input}</p>
         </div>
